@@ -5,12 +5,12 @@ body {
   margin: 0;
   padding: 0;
   width: 100%;
-  height: 100%;
+  height: 1350px;
   overflow-x: auto;
-  overflow-y: hidden;
+  overflow-y: auto;
   font-family: "Open Sans", sans-serif;
-  font-size: 13px;
-  background: #1e2b34;
+  font-size: 12px;
+  background: #101010;
   color: #ced2d5;
 }
 
@@ -27,44 +27,90 @@ body {
   }
 }
 
+.navbar.navbar-default a {
+  color: #FFFFFF;
+}
+
 button:focus {
   outline: 0;
 }
 
-body::-webkit-scrollbar,
+
+#apiselect {
+  margin-top: 5px; 
+  margin-left: 15px; 
+  margin-right: 20px;
+  color: #00FF00; 
+  background-color: #101020;
+  padding: 10px; 
+  width: 130px; 
+  height: 50px;
+  overflow: hidden; 
+  font-weight: bold;
+  font-size: 16px;
+  border: 0;
+}
+
+#apilabel {
+  margin-top: 10px; 
+  margin-left: 20px; 
+  color: #FFFFFF; 
+  background-color: #000000; 
+  width: 140px; 
+  height: 34px;
+  overflow: hidden; 
+  font-weight: bold;
+  font-size: 16px;
+  border: 0;
+}
+
+#apiselect .darkitem {
+  background: #000000;
+  font-weight: bold;
+  color: #BBBBBB;
+}
+
+
+::-webkit-scrollbar,
 .scroll::-webkit-scrollbar {
-  width: 5px;
+  width: 15px;
   height: 5px;
 }
 
-body::-webkit-scrollbar-track,
+::-webkit-scrollbar-track,
 .scroll::-webkit-scrollbar-track {
   background: #15232c;
 }
 
-body::-webkit-scrollbar-thumb,
+::-webkit-scrollbar-thumb,
 .scroll::-webkit-scrollbar-thumb {
   background-color: #233540;
-  border: 1px solid #233540;
+  border: 1px solid green;
   transition: all 0.2s ease-out;
 }
 
-body::-webkit-scrollbar-thumb:hover,
+::-webkit-scrollbar-thumb:hover,
 .scroll::-webkit-scrollbar-thumb:hover {
   background-color: #445661;
 }
 
+
 .navbar.navbar-default {
-  background: #fff;
+  background: #000000;
   border: 0;
   border-radius: 0;
+  box-shadow: 2px 2px 6px rgba(0,40,0,0.7);
+  height: 58px;
+  margin-bottom: 3px !important;
 }
+
 a.navbar-brand {
   height: 50px;
   padding: 0;
 }
 .navbar-brand img {
-  height: 100%;
+  height: 58px;
+  margin-left: 15px;
 }
 
 .container {
@@ -74,6 +120,7 @@ a.navbar-brand {
   width: 100%;
   box-sizing: border-box;
   font-size: 90%;
+  margin-top: 5px;
 }
 
 .center {
@@ -81,15 +128,15 @@ a.navbar-brand {
 }
 
 .row {
-  margin: 0;
-  padding: 0;
+
   height: 100%;
   display: table-row;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #004400;
 }
 
 .row-container {
   width: 100%;
-  height: 100%;
 }
 
 .row .no-float {
@@ -99,7 +146,12 @@ a.navbar-brand {
   float: none;
 }
 .row .no-float:not(:last-child) {
-  border-right: 2px solid #18252e;
+  border-right: 2px solid #004400;
+  border-bottom: 2px solid #004400;
+}
+
+div.col-md-3.no-float {
+  border-bottom: 2px solid #004400;
 }
 
 .row-header {
@@ -111,35 +163,39 @@ a.navbar-brand {
   font-weight: bold;
   text-transform: capitalize;
   color: #fff;
-  border-bottom: 2px solid #18252e;
+  border-bottom: 2px solid #004400;
+}
+
+#orderBookScroll {
+  padding-right: 12px;
 }
 
 .row-box {
   height: auto;
   color: #fff;
-  overflow-y: auto;
 }
 
 .row-box.height1 {
-  height: calc(100vh - 89px);
+  height: 620px;  
 }
 .row-box.height2 {
-  height: calc(50vh - 98px);
+  height: 265px;
 }
 .row-box.height3 {
-  height: calc(50vh - 81px);
+  height: 620px;
 }
 .row-box.height4 {
-  height: calc(40vh - 61px);
+  height: 265px;
 }
 .row-box.height5 {
-  height: calc(60vh - 135px);
+  height: 465px;
 }
 .row-box.height6 {
   height: calc(40vh - 81px);
 }
 .row-box.height7 {
-  height: calc(60vh - 45px);
+  height: 625px;
+  overflow-y: hidden;  
 }
 .row-box.table-header {
   height: 35px;
@@ -188,6 +244,7 @@ tr.clickable-row:hover {
 
 .scroll {
   overflow-y: auto;
+  overflow-x: hidden;
 }
 
 .row-box.nav-header {
@@ -345,8 +402,13 @@ pre code {
   overflow-y: auto;
 }
 
+.dropdown-menu li a {
+  color: #000000;
+}
+
+
 .dropdown-menu::-webkit-scrollbar {
-  width: 5px;
+  width: 15px;
   height: 5px;
 }
 
@@ -480,14 +542,32 @@ pre code {
   visibility: visible;
 }
 
+.navbar-nav {
+  margin-top: 5px;
+}
+
 #bs-example-navbar-collapse-1 .navbar-nav a {
   font-weight: bold;
-  color: #15232c;
+  color: #00FF00;
+  text-shadow: 1px 1px #000000;  
+  font-size: 12px; 
+  background-color: #101020;
+}
+
+.navbar-nav > li > .dropdown-menu {
+  background-color: #101020;
+  border: 1px solid #008000;
+}
+
+#bs-example-navbar-collapse-1 .dropdow-menu li a {
+  font-weight: bold;
+  color: #000000;
   font-size: 12px;
 }
 
 .navbar-nav > li > .dropdown-menu a {
   padding: 10px;
+  color: #000000;  
 }
 
 .badge {
@@ -627,9 +707,7 @@ fieldset[disabled] .form-control {
 }
 
 #bs-example-navbar-collapse-1 .navbar-nav #tokensDropdown .dropdown-menu a {
-  color: #777;
-  font-weight: normal;
-
+  color: #80AA80;
   overflow: hidden;
   white-space: nowrap;
   text-overflow: ellipsis;
@@ -641,8 +719,8 @@ fieldset[disabled] .form-control {
   .dropdown-menu
   a
   span.symbol {
-  color: #15232c;
   font-weight: bold;
+  color: #00FF00;
 }
 
 #bs-example-navbar-collapse-1
@@ -650,7 +728,7 @@ fieldset[disabled] .form-control {
   #tokensDropdown
   .dropdown-menu
   a.other {
-  color: #15232c;
+  color: #00FF00;
   font-weight: bold;
 }
 
@@ -661,6 +739,50 @@ fieldset[disabled] .form-control {
 
 #trades tr:hover {
   background-color: #1b2831;
+}
+
+.row-balance {
+  height: 290px;
+}
+
+
+#header-volume {
+  max-width: 550px;
+  border: 0;
+}
+
+#volume {  
+  
+}
+
+#volumeContainer {
+  margin-top: 5px;
+  max-width: 550px;
+  height: 550px; 
+  border: 2px solid #004400;
+  float: left; 
+  width: 30%;
+}
+
+#aboutPageContainer {
+  margin-top: 5px; 
+  height: 550px;
+  border: 2px solid #004400;
+  float: right;
+  width: 64%;
+}
+
+#aboutPage {
+  width: 100%;
+  height: 100%;
+}
+
+#infoSection {
+  margin-top: 15px;
+  margin-left: auto; 
+  margin-right: auto;  
+  margin-left: 3%;
+  margin-right: 3%;
 }
 
 #volume .ticker-row {
@@ -677,7 +799,13 @@ fieldset[disabled] .form-control {
 }
 
 #trades {
-  overflow-x: hidden; /* prevents the header from getting clipped at the top on FF on narrow windows. See https://github.com/forkdelta/forkdelta.github.io/issues/102 */
+  overflow-x: hidden; 
+}
+
+.ajs-ok {
+  color: black;
+}
+/* prevents the header from getting clipped at the top on FF on narrow windows.
 }
 
 .fa.fa-spinner:before {
@@ -754,14 +882,21 @@ fieldset[disabled] .form-control {
   color: #fff;
 }
 
+
+*/
+
 .ReactModal__Overlay.ReactModal__Overlay--after-open {
-  background-color: rgba(0, 0, 0, 0.75) !important;
+  background-color: rgba(0, 30, 0, 0.65) !important;
+  color: #003000;
   /* z-index must be higher than navbar or you get issue #118 */
   z-index: 1100;
+  top: 60px !important;
 }
 
 /* Small Devices, Tablets */
-@media only screen and (max-width: 768px) {
+
+
+@media only screen and (max-width: 980px) {
   #balance {
     height: 330px;
   }
@@ -769,4 +904,97 @@ fieldset[disabled] .form-control {
   .row-box.height4 {
     height: 400px;
   }
+
+.btn-primary {
+  float: right;
+  width: 110px !important;
 }
+
+.container {
+  margin-top: 65px;
+  font-size: 130%;
+  text-align: center;  
+}
+
+.row .no-float {
+  margin: 0;
+  padding: 0;
+  display: block;
+  float: none;
+  border-bottom: 0;
+}
+
+.row {
+  border-bottom: 0;
+}
+
+.trn, .form-horizontal .control-label {
+  font-size: 17px;
+}
+
+.btn {
+  font-size: 16px;
+}
+
+div.col-md-3.no-float, .row .no-float:not(:last-child)  {
+  border-bottom: 2px solid #000000;
+  padding-bottom: 5px;
+}
+
+#aboutPageContainer {
+  height: 600px;
+  float: left;
+  max-width: 550px;
+  width: 100%;
+  margin-bottom: 60px;
+}
+
+#volumeContainer {
+  width: 100%;
+  max-width: 550px;
+  font-size: 17px;
+}
+
+.row-container {
+  max-width: 550px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 8px;
+  background-color: #001500;
+}
+
+#infoSection {
+  margin-left: 0;
+  margin-right: 0;
+  margin-top: 0;
+}
+
+body {
+  overflow-y: hidden;
+  height: 4220px;
+}
+
+
+}
+
+@media only screen and (max-width: 720px) {
+.container {
+   margin-top: 10px; 
+}
+}
+
+@media only screen and (max-width: 550px) {
+.row-container {
+  max-width: 500px;
+}
+
+}
+
+@media only screen and (max-width: 450px) {
+.row-container {
+  max-width: 400px;
+}
+
+}
+
+
