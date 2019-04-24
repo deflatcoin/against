@@ -22,7 +22,7 @@ contract againstRelease {
         if (amount > 2*(10**15)) {
             if (releaseWallet.send(amount)) {
 			  emit FundTransfer(releaseWallet, amount, false);
-			}
+	    }
         }     			
     }
 }
