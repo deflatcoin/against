@@ -9,8 +9,8 @@ The frontend is based on Etherdelta/ForkDelta decentralized Ethereum Token Excha
 
 # What is ForkDelta/EtherDelta
 
-See here [GitHub](https://github.com/forkdelta/)
-and here [GitHub](https://github.com/etherdelta/)
+See here [GitHub ForkDelta](https://github.com/forkdelta/)
+and here [GitHub EtherDelta](https://github.com/etherdelta/)
 
 
 # #DEX Backend dexDB
