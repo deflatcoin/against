@@ -6,6 +6,10 @@ the AGAINST Project aims to develop a fully decentralized ecosystem for crypto a
 # DEX Frontend
 The frontend is based on Etherdelta/ForkDelta decentralized Ethereum Token Exchange, with changes that differentiate the need of a host and / or domain, being able to IPFS.
 
+Add the hash QmVzQz8w9gF7SsVdf2QAmP7C3jLXBuE1XstqWAc72axz8M on your IPFS Desktop (or equivalent) and open http://localhost:8080/ipfs/QmVzQz8w9gF7SsVdf2QAmP7C3jLXBuE1XstqWAc72axz8M/ link in browser to load the IPFS DEX Frontend.
+
+In the current stage of development, the ForkDelta api is still used to obtain the order book.
+
 
 # What is ForkDelta/EtherDelta
 
@@ -22,3 +26,9 @@ The project provides for the development of a decentralized database to accommod
 It basically consists of a cover, with a friendly name, with access to the system's website that also runs on IPFS.
 
 As for the construction of the site itself there are already dozens of implementations that can be used over IPFS, leaving the project in charge of making just a few tips and recommendations.
+
+Friendly demo cloak http://against.mooo.com
+
+The cloak load the IPFS hash: QmPwfeHrLKqCzCKqzeCrxW4HSpcrbwPC1DqxqYiyTfVQBA
+
+
