@@ -31,6 +31,6 @@ As for the construction of the site itself there are already dozens of implement
 
 Friendly demo cloak http://against.mooo.com
 
-The cloak load the IPFS hash: QmPwfeHrLKqCzCKqzeCrxW4HSpcrbwPC1DqxqYiyTfVQBA
+The cloak load the IPFS hash: QQmc5vshoWf75JG8H7NnBtjRXbqeXMyndx3DQPVh3NNvoqB
 
 
