@@ -29,8 +29,13 @@ It basically consists of a cover, with a friendly name, with access to the syste
 
 As for the construction of the site itself there are already dozens of implementations that can be used over IPFS, leaving the project in charge of making just a few tips and recommendations.
 
-Friendly demo cloak http://against.mooo.com
+Gateway 1:
+[size=10pt]https://gateway.pinata.cloud/ipfs/QmTAqW2QLfRvxyMc5KakArLJsrxXp6XcunkfjqMa3tQVCU/[/size]
 
-The cloak load the IPFS hash: QQmc5vshoWf75JG8H7NnBtjRXbqeXMyndx3DQPVh3NNvoqB
+Gateway 2:
+[size=10pt]https://ipfs.io/ipfs/QmTAqW2QLfRvxyMc5KakArLJsrxXp6XcunkfjqMa3tQVCU/[/size]
+
+
+The links loading the IPFS hash: QmTAqW2QLfRvxyMc5KakArLJsrxXp6XcunkfjqMa3tQVCU
 
 
