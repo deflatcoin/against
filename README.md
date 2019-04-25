@@ -30,10 +30,10 @@ It basically consists of a cover, with a friendly name, with access to the syste
 As for the construction of the site itself there are already dozens of implementations that can be used over IPFS, leaving the project in charge of making just a few tips and recommendations.
 
 Gateway 1:
-[size=10pt]https://gateway.pinata.cloud/ipfs/QmTAqW2QLfRvxyMc5KakArLJsrxXp6XcunkfjqMa3tQVCU/[/size]
+https://gateway.pinata.cloud/ipfs/QmTAqW2QLfRvxyMc5KakArLJsrxXp6XcunkfjqMa3tQVCU/
 
 Gateway 2:
-[size=10pt]https://ipfs.io/ipfs/QmTAqW2QLfRvxyMc5KakArLJsrxXp6XcunkfjqMa3tQVCU/[/size]
+https://ipfs.io/ipfs/QmTAqW2QLfRvxyMc5KakArLJsrxXp6XcunkfjqMa3tQVCU/
 
 
 The links loading the IPFS hash: QmTAqW2QLfRvxyMc5KakArLJsrxXp6XcunkfjqMa3tQVCU
