@@ -17,7 +17,7 @@ See here [GitHub ForkDelta](https://github.com/forkdelta/)
 and here [GitHub EtherDelta](https://github.com/etherdelta/)
 
 
-# DEX Backend dexDB
+# dexDB
 
 The project provides for the development of a decentralized database to accommodate all the needs of a crypto exchange (which we'll call abbreviated dexDB), with a serverless architecture as the main objective.
 
