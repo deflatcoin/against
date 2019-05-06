@@ -29,6 +29,6 @@ It basically consists of a cover, with a friendly name, with access to the syste
 
 As for the construction of the site itself there are already dozens of implementations that can be used over IPFS, leaving the project in charge of making just a few tips and recommendations.
 
-Go to https://github.com/deflatcoin/docs/blob/master/dorway
+Go to https://github.com/deflatcoin/docs/blob/master/dorway.md
 
 
