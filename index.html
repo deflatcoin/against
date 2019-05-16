@@ -2,17 +2,10 @@
 <html lang="en">
   <head>
     <script>
-
+       var gatewayFeeAddr = '0xB82DB70b1a14585eada4e0680094ea0B46D155C9';
 	   var loc = window.location.pathname;
        var scriptfolder = loc.substring(0, loc.lastIndexOf('/'));
        var pathipfs = window.location.pathname.toUpperCase(); 
-
-       if (pathipfs.search("/IPFS/") > -1) {           
-         if (window.location.hostname != 'localhost') {
-            window.location = 'http://localhost:8080'+window.location.pathname; 
-         }
-       }  
-
        function setCookie(cookie_name, cookie_value, expire_in_days) {
                var cookie_expire = "";
                if (expire_in_days != null) {
@@ -65,8 +58,6 @@
           <span id="apilabel">API/Config: </span>
           <select id="apiselect" onchange="selectAPI()">
             <option value="AGAINST" selected class="darkitem">AGAINST</option>
-            <option value="ForkDelta" class="darkitem">ForkDelta</option>
-            <option value="EtherDelta" class="darkitem">EtherDelta</option>
             <option value="DEFLAT" class="darkitem">DEFLAT</option>
           </select>            
         </div>
