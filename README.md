@@ -14,11 +14,11 @@ See here [GitHub ForkDelta](https://github.com/forkdelta/)
 and here [GitHub EtherDelta](https://github.com/etherdelta/)
 
 
-# dexDB
+# dexAPI
 
-The project provides for the development of a decentralized database to accommodate all the needs of a crypto exchange (which we'll call abbreviated dexDB), with a serverless architecture as the main objective.
+The project provides for the development of a decentralized API to accommodate all the needs of a crypto exchange (which we'll call abbreviated dexAPI).
 
-Go to https://github.com/deflatcoin/dexDB
+Go to https://github.com/deflatcoin/dexAPI
 
 # Dorway Page
 
