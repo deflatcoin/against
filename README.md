@@ -14,9 +14,9 @@ See here [GitHub ForkDelta](https://github.com/forkdelta/)
 and here [GitHub EtherDelta](https://github.com/etherdelta/)
 
 
-# dexAPI
+# API
 
-The project provides for the development of a decentralized API to accommodate all the needs of a crypto exchange (which we'll call abbreviated dexAPI).
+The development also provides a decentralized API to accommodate all the needs of a crypto exchange, which will be constituted in the final stage of the project.
 
 Go to https://github.com/deflatcoin/dexAPI
 
