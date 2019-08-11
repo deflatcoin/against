@@ -1,6 +1,6 @@
 # AGAINST Project
 
-the AGAINST Project aims to develop a fully decentralized ecosystem for crypto assets, including currency, exchange and site.
+The AGAINST Project aims to develop a fully decentralized ecosystem for crypto assets, including currency, exchange and site.
 
 
 # New DEX Frontend
