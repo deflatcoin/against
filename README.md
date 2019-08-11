@@ -3,22 +3,15 @@
 the AGAINST Project aims to develop a fully decentralized ecosystem for crypto assets, including currency, exchange and site.
 
 
-# DEX Frontend
-The frontend is based on Etherdelta/ForkDelta decentralized Ethereum Token Exchange, with changes that differentiate the need of a host and / or domain, being able to IPFS.
+# NEWDEX Frontend
+The frontend is new decentralized Ethereum Token Exchange, with changes that differentiate the need of a central host and / or domain, being able to IPFS or localhost implementation. This does not prevent anyone from making the gateway available in a domain if they wish. The important thing is the freedom to choose the implementation you find most appropriate.
 
-More Info https://github.com/deflatcoin/docs/blob/master/frontend.md
+More Info https://github.com/deflatcoin/decentralization
 
-# What is ForkDelta/EtherDelta
+# What is ForkDelta/EtherDelta (Deprecated here @ Aug/2019)
 
-See here [GitHub ForkDelta](https://github.com/forkdelta/)
-and here [GitHub EtherDelta](https://github.com/etherdelta/)
-
-
-# API
-
-The development also provides a decentralized API to accommodate all the needs of a crypto exchange, which will be constituted in the final stage of the project.
-
-Go to https://github.com/deflatcoin/api
+Active projects goto [GitHub ForkDelta](https://github.com/forkdelta/)
+and [GitHub EtherDelta](https://github.com/etherdelta/)
 
 # Dorway Page
 
