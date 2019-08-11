@@ -8,7 +8,7 @@ The frontend is new decentralized Ethereum Token Exchange, with changes that dif
 
 More Info https://github.com/deflatcoin/decentralization
 
-# What is ForkDelta/EtherDelta (Deprecated here @ Aug/2019)
+# What is ForkDelta/EtherDelta (Deprecated @ Aug/2019)
 
 Active projects goto [GitHub ForkDelta](https://github.com/forkdelta/)
 and [GitHub EtherDelta](https://github.com/etherdelta/)
