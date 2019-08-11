@@ -3,7 +3,7 @@
 the AGAINST Project aims to develop a fully decentralized ecosystem for crypto assets, including currency, exchange and site.
 
 
-# NEWDEX Frontend
+# New DEX Frontend
 The frontend is new decentralized Ethereum Token Exchange, with changes that differentiate the need of a central host and / or domain, being able to IPFS or localhost implementation. This does not prevent anyone from making the gateway available in a domain if they wish. The important thing is the freedom to choose the implementation you find most appropriate.
 
 More Info https://github.com/deflatcoin/decentralization
